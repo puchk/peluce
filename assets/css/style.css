@@ -5,11 +5,21 @@ body {
 	background-image: url("../images/background.png");
 }
 
+#mainBody {
+	margin-top: 35px;
+}
 /*=============================================*/
 /*Nav*/
+.navIcon {
+	margin-left: 25px;
+}
+
+.navBar {
+	color: rgb(180,180,180);
+}
 
 li {
-	padding-left: 20px;
+	padding-left: 27px;
 }
 
 /*.navList {
@@ -19,27 +29,25 @@ li {
 /*==============================================*/
 /*Gallery Page*/
 .painting {
-	max-width: 350px;
+	max-width: 330px;
 	margin-bottom: 10px;
 	border: 1px solid white;
 	/*margin-right: 20px;*/
 }
 
-#mainBody {
-	margin-top: 15px;
-}
 
-.allPaintings {
+
+/*.allPaintings {
 	margin-top: 20px;
 }
-
+*/
 /*=================================================*/
 /*Home Page*/
 #homePainting {
 	max-width: 100%;
 	border: 1px solid white;
 	/*opacity: .5;*/
-	margin-top: 20px;
+	/*margin-top: 20px;*/
 }
 
 .image {
@@ -56,7 +64,7 @@ li {
 	width: 100%;
 	top: 200px;
 	/*background: rgba(0,0,0,.6);*/
-	
+
 	color: white;
 }
 

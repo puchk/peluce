@@ -16,6 +16,9 @@ body {
 	margin-left: 25px;
 	cursor: pointer;
 }
+.navIcon:hover {
+	opacity: .3;
+}
 
 .navBar {
 	/*color: rgb(180,180,180);*/
@@ -38,6 +41,11 @@ li {
 }*/
 a {
 	color: rgb(180,180,180);
+}
+
+a:hover {
+	color: rgb(180,180,180);
+	opacity: .3;
 }
 /*==============================================*/
 /*Gallery Page*/

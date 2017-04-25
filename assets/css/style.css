@@ -16,6 +16,7 @@ body {
 
 .navBar {
 	color: rgb(180,180,180);
+	position: fixed;
 }
 
 li {

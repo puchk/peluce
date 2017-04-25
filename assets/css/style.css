@@ -1,0 +1,65 @@
+body {
+	font-family: "Helvetica Neue";
+	font-size: 25px;
+	line-height: 1.5;
+	background-image: url("../images/background.png");
+}
+
+/*=============================================*/
+/*Nav*/
+
+li {
+	padding-left: 20px;
+}
+
+/*.navList {
+	margin-top 
+}*/
+
+/*==============================================*/
+/*Gallery Page*/
+.painting {
+	max-width: 350px;
+	margin-bottom: 10px;
+	border: 1px solid white;
+	/*margin-right: 20px;*/
+}
+
+#mainBody {
+	margin-top: 15px;
+}
+
+.allPaintings {
+	margin-top: 20px;
+}
+
+/*=================================================*/
+/*Home Page*/
+#homePainting {
+	max-width: 100%;
+	border: 1px solid white;
+	/*opacity: .5;*/
+	margin-top: 20px;
+}
+
+.image {
+	position: relative;
+	width: 100%;
+	/*background-image: url(../images/thePhysicians.jpg);*/
+	/*background-size: cover;*/
+}
+
+.imageText {
+	position: absolute;
+	text-align: center;
+	line-height: 1.2;
+	width: 100%;
+	top: 200px;
+	/*background: rgba(0,0,0,.6);*/
+	
+	color: white;
+}
+
+.name {
+	font-size: 60px;
+}

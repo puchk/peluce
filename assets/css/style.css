@@ -1,8 +1,10 @@
 body {
 	font-family: "Helvetica Neue";
 	font-size: 25px;
-	line-height: 1.5;
+	line-height: 1.7;
 	background-image: url("../images/background.png");
+	color: rgb(180,180,180);
+
 }
 
 #mainBody {
@@ -12,10 +14,11 @@ body {
 /*Nav*/
 .navIcon {
 	margin-left: 25px;
+	cursor: pointer;
 }
 
 .navBar {
-	color: rgb(180,180,180);
+	/*color: rgb(180,180,180);*/
 	position: fixed;
 }
 
@@ -23,10 +26,19 @@ li {
 	padding-left: 27px;
 }
 
+.sameLink {
+	opacity: .3;
+}
+
+.isShowing {
+	display: none;
+}
 /*.navList {
 	margin-top 
 }*/
-
+a {
+	color: rgb(180,180,180);
+}
 /*==============================================*/
 /*Gallery Page*/
 .painting {
@@ -58,16 +70,24 @@ li {
 	/*background-size: cover;*/
 }
 
-.imageText {
+/*.imageText {
 	position: absolute;
 	text-align: center;
 	line-height: 1.2;
 	width: 100%;
 	top: 200px;
-	/*background: rgba(0,0,0,.6);*/
-
 	color: white;
 }
+*/
+.homeText {
+	margin-top: 0;
+	font-size: 40px;
+}
+.firstLetter {
+	font-size: 50px;
+}
+
+
 
 .name {
 	font-size: 60px;

@@ -36,12 +36,21 @@ $(document).ready(function() {
 // 	console.log(element[0], element[1]);
 // });
 
-
+// MASONRY
 $(".allPaintings").masonry({
 		columnWidth: ".painting",
 		itemSelector: ".painting",
 		gutter: 10
 	});
+
+
+
+var showingNav = false;
+
+// NAVICON CLICK
+$(".navIcon").on("click", function() {
+	$(".navText").toggleClass("isShowing");
+})
 
 
 });

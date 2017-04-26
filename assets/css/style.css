@@ -33,7 +33,7 @@ li {
 	opacity: .3;
 }
 
-.isShowing {
+.isNotShowing {
 	display: none;
 }
 /*.navList {
@@ -71,6 +71,10 @@ a:hover {
 	/*margin-top: 20px;*/
 }
 
+#homePainting:hover {
+	opacity: .3;
+}
+
 .image {
 	position: relative;
 	width: 100%;
@@ -78,7 +82,7 @@ a:hover {
 	/*background-size: cover;*/
 }
 
-/*.imageText {
+.imageText {
 	position: absolute;
 	text-align: center;
 	line-height: 1.2;
@@ -86,7 +90,7 @@ a:hover {
 	top: 200px;
 	color: white;
 }
-*/
+
 .homeText {
 	margin-top: 0;
 	font-size: 40px;

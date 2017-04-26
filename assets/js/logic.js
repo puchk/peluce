@@ -44,13 +44,13 @@ $(".allPaintings").masonry({
 	});
 
 
-
-var showingNav = false;
-
 // NAVICON CLICK
 $(".navIcon").on("click", function() {
-	$(".navText").toggleClass("isShowing");
+	$(".navText").toggleClass("isNotShowing");
 })
 
+$("#homePainting").hover(function() {
+	$(".imageText").toggleClass("isNotShowing");
+})
 
 });

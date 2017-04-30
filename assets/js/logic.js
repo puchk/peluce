@@ -37,12 +37,14 @@ $(document).ready(function() {
 // });
 
 // MASONRY
-$(".allPaintings").masonry({
+$(".allPaintings").imagesLoaded(function() {
+	$(".allPaintings").masonry({
 		columnWidth: ".painting",
 		itemSelector: ".painting",
 		gutter: 10
 	});
-
+})
+	
 
 // NAVICON CLICK
 $(".navIcon").on("click", function() {

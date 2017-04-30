@@ -48,6 +48,9 @@ $(".allPaintings").masonry({
 $(".navIcon").on("click", function() {
 	$(".navText").toggleClass("isNotShowing");
 })
+$(".contact").on("click", function() {
+	$('#alertModal').modal('show');
+})
 
 var darkImage = true;
 $("#homePainting").hover(function() {

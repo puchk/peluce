@@ -94,6 +94,13 @@ a:hover {
 	color: white;
 }
 
+.transition {
+	transition: 7s ease;
+}
+.shortTransition {
+	transition: 3s ease;
+}
+
 
 .name {
 	font-size: 60px;

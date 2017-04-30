@@ -53,7 +53,10 @@ var darkImage = true;
 $("#homePainting").hover(function() {
 	if (darkImage) {
 		$(".imageText").toggleClass("isNotShowing");
+
 		$("#homePainting").toggleClass("darken");
+		$("#homePainting").toggleClass("transition");
+
 		darkImage = false;
 	}
 })

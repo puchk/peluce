@@ -49,8 +49,13 @@ $(".navIcon").on("click", function() {
 	$(".navText").toggleClass("isNotShowing");
 })
 
+var darkImage = true;
 $("#homePainting").hover(function() {
-	$(".imageText").toggleClass("isNotShowing");
+	if (darkImage) {
+		$(".imageText").toggleClass("isNotShowing");
+		$("#homePainting").toggleClass("darken");
+		darkImage = false;
+	}
 })
 
 });

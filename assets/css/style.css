@@ -67,11 +67,14 @@ a:hover {
 #homePainting {
 	max-width: 100%;
 	border: 1px solid white;
-	/*opacity: .5;*/
+	/*opacity: .3;*/
 	/*margin-top: 20px;*/
 }
-
+/*
 #homePainting:hover {
+	opacity: 1;
+}*/
+.darken {
 	opacity: .3;
 }
 
@@ -91,16 +94,44 @@ a:hover {
 	color: white;
 }
 
-.homeText {
-	margin-top: 0;
-	font-size: 40px;
-}
-.firstLetter {
-	font-size: 50px;
-}
-
-
 
 .name {
 	font-size: 60px;
+}
+
+@media (max-width: 991px) {
+	.navBar {
+		position: static;
+		margin-left: 0;
+		text-align: center;
+	}
+	.navIcon {
+		display: none;
+	}
+	li {
+		padding-left: 0;
+
+	}
+	.painting {
+		max-width: 95%;
+	}
+	#homePainting{
+		content:url("../images/vanishingPoint.jpg");
+	}
+	.imageText {
+		position: static;
+	}
+	.isNotShowing {
+		display: inline-block;;
+		text-align: center;
+	}
+}
+
+@media (max-width: 550px) {
+	.name {
+		font-size: 35px;
+	}
+	.imageText {
+		font-size: 18px;
+	}
 }
